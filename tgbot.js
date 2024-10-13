@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const solanaWeb3 = require('@solana/web3.js');
 
-const botapi = "7099849486:AAGzdRgcYZN1xTzmLUrzzW6ReR9kenJSWq8";
+const botapi = "";
 const bot = new TelegramBot(botapi, {polling: true});
 
 // массив разрешенных юзеров.
